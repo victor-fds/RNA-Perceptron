@@ -1,0 +1,10 @@
+Normalização dos dados:
+- Idade: de acordo com a severidade, se 0, utilizar a média da idade < 50
+				   , se 1, utilizar a média da idade > 50
+
+- Bi-RADS, Forma, margem, densidade: de acordo com a severidade, se 0, utilizar a moda da idade < 50
+				   		       	       , se 1, utilizar a moda da idade > 50
+
+Utilizar dois bancos de dados:
+- Um banco com os dados efetivos (utilizar constante de treinamento 10%)
+- Um banco com os parte dos dados inferidos (utilizar constante de treinamento 5%)
